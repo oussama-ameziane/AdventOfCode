@@ -1004,7 +1004,7 @@ input = input.split("\n")
 let gamma = ""
 let epsilon = ""
 
-for (let i = 0; i < 12; i++) {
+for (let i = 0; i < input[0].length; i++) {
     let onebits = 0
     let zerobits = 0
     for (let x = 0; x < input.length; x++) {
